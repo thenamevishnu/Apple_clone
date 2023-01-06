@@ -3,6 +3,7 @@ body{
     padding: 0;
     background-color: #ffffff;  
     overflow-x: hidden;
+    width:100vw;
 }
 .nav-head{
     background-color: rgb(60, 59, 59);
