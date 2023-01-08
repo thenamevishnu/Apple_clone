@@ -3,7 +3,7 @@ body{
     padding: 0;
     background-color: #ffffff;  
     overflow-x: hidden;
-    width:100vw;
+    width: 100vw;
 }
 .nav-head{
     background-color: rgb(60, 59, 59);
@@ -16,7 +16,7 @@ body{
 }
 .nav-head ul li{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     display: inline;
     margin: 17px;
     font-size: small;
@@ -544,6 +544,13 @@ div .third{
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
     color: #0f0f0ffd;
 }
+.footer-container .section1 span:hover , .footer-container .section2 span:hover , .footer-container .section3 span:hover , .footer-container .section4 span:hover , .footer-container .section5 span:hover , .hover-effect:hover , .apple-store-link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.apple-store-link{
+    color: rgb(0, 132, 255);
+}
 .footer-container .section1{
     position: relative;
     margin-left: 256px;
@@ -568,7 +575,7 @@ div .third{
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
     color: #6e6e73;
 }
-.footer-section span{
+.footer-section .footer-span{
     display: flex;
     position: relative;
     margin-left: 298px;
@@ -587,5 +594,3 @@ div .third{
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
     color: #6e6e73;
 }
-
-
